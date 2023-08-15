@@ -30,6 +30,8 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
-    gap: 15px;
-    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 20px;
+    justify-content: center;
+    margin-left: auto;
 }
