@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', arial;
+    display: flex;
+    flex-direction: column;
 }
 
 /* First Section */
@@ -102,6 +104,7 @@ body {
     padding-right: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .second-sec-box {
@@ -123,4 +126,35 @@ body {
     align-items: center;
     padding: 30px;
     margin: 20px;
+}
+
+/* Third section */
+
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.third-section-quote{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+    align-self: center;
+}
+
+.text-author{
+    margin-top: -40px;
+    margin-right: 50px;
+    align-self: flex-end;
+}
+
+.third-section-quote p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
 }
