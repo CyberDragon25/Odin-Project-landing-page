@@ -208,3 +208,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* fifth section */
+
+.fifth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
