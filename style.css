@@ -158,3 +158,53 @@ body {
     color: #1F2937;
     font-style: italic;
 }
+
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    border-radius: 5%;
+    padding: 50px;
+    display: flex;
+    margin: 50px;
+    width: 900px;
+    background-color: #3882F6;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.sec-4-text {
+    flex-basis: 100%;
+}
+
+
+.sec-4-button {
+    flex-basis: 100%;
+    color: white;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+
+.fourth-section button {
+    border: 1px solid white;
+    color: white;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
